@@ -1,0 +1,59 @@
+/* Schema for Hover Effects */
+
+/* 1. Name Hover Effect */
+{
+    selector: "header .name h1",
+    hover-effect: "color change",
+    initial-color: "#2980b9",  /* Base color */
+    hover-color: "#3498db",    /* Hover color */
+    transition: "color 0.3s ease"
+}
+
+/* 2. Job Experience Title Hover Effect */
+{
+    selector: ".job h3",
+    hover-effect: "color change",
+    initial-color: "#2980b9",  /* Base color */
+    hover-color: "#3498db",    /* Hover color */
+    transition: "color 0.3s ease"
+}
+
+/* 3. Job Experience Card Hover Effect */
+{
+    selector: ".job",
+    hover-effect: "lift & shadow",
+    initial-transform: "none",  /* No transform */
+    hover-transform: "translateY(-5px)", /* Lifts card */
+    initial-shadow: "0 2px 5px rgba(0, 0, 0, 0.1)", /* Base shadow */
+    hover-shadow: "0 4px 10px rgba(0, 0, 0, 0.2)", /* Stronger shadow on hover */
+    transition: "transform 0.3s ease, box-shadow 0.3s ease"
+}
+
+/* 4. Skills / Section List Item Hover Effect */
+{
+    selector: "section ul li",
+    hover-effect: "slide & color change",
+    initial-transform: "none",  /* No transform */
+    hover-transform: "translateX(10px)", /* Move items to the right */
+    initial-color: "#34495e", /* Base text color */
+    hover-color: "#2980b9",   /* Hover text color */
+    transition: "transform 0.3s ease"
+}
+
+/* 5. Certifications Tag Hover Effect */
+{
+    selector: "#certifications ul li",
+    hover-effect: "color change",
+    initial-background-color: "#f1c40f", /* Base background color */
+    hover-background-color: "#f39c12",   /* Hover background color */
+    initial-color: "#fff", /* Text color */
+    hover-color: "#2c3e50",  /* Hover text color */
+    transition: "background-color 0.3s ease, color 0.3s ease"
+
+    img{
+        height: auto;
+        width 10px;
+
+        
+    }
+}
